@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    --font-main: 'Bebas Neue', cursive;
+    --font-para: 'Oswald', sans-serif;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-image: url('Resources/main_wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-flow: column;
+}
+.title{
+    font-family: var(--font-main);
+    font-size: 4em;
+    color: #333;
+    letter-spacing: 5px;
+}
+.postulate .image{
+    background-image: url('Resources/postulate1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.postulate .image, .postulate .text{
+    width: 50%;
+    height: 100vh;
+}
+body section:nth-child(3){
+    flex-flow: row-reverse;
+}
+body section:nth-child(3) .image{
+    background-image: url('Resources/postulate2.jpg');
+}
+body section:nth-child(4) .image{
+    background-image: url('Resources/postulate3.jpg');
+}
+body section:nth-child(5){
+    flex-flow: row-reverse;
+}
+body section:nth-child(5) .image{
+    background-image: url('Resources/postulate4.jpg');
+}
+body section:nth-child(6) .image{
+    background-image: url('Resources/postulate5.jpg');
+}
+.postulate .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.postulate .title{
+    font-size: 2em;
+    height: auto;
+}
+.description{
+    font-family:var(--font-para);
+    padding: 50px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: #3b90ff;
+    font-family:var(--font-main);
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    cursor:pointer
+}
+.button:hover{
+    background-color: #006eff;
+}
