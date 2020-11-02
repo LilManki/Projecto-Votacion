@@ -1,0 +1,96 @@
+body{
+    padding:0;
+    margin:0;
+}
+section{
+    min-height: 100vh;
+}
+.main, 
+.main-alert{
+    background-image: url('Resources/main_wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #333;
+    letter-spacing: 5px;
+    margin:0;
+    text-align: center;
+}
+.postulate .image{
+    background-size: cover;
+    background-position: center;
+}
+.postulate .image, .postulate .text{
+    height: 100vh;
+}
+.postulado1{
+    background-image: url('Resources/postulate1.jpg');
+}
+
+.postulado2{
+    background-image: url('Resources/postulate2.jpg');
+}
+.postulado3{
+    background-image: url('Resources/postulate3.jpg');
+}
+
+.postulado4{
+    background-image: url('Resources/postulate4.jpg');
+}
+.postulado5{
+    background-image: url('Resources/postulate5.jpg');
+}
+
+.description{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-flow: column;
+    border: rgba(202, 201, 201, 0.548) solid 2px;
+    margin: 100px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: #3b90ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor:pointer;
+    text-align: center;
+    margin: 20px;
+}
+.inline{
+    display:flex;
+}
+a{
+    text-decoration: none;
+    color:#3b90ff;
+    font-size: 40px;
+    padding: 5px;
+}
+.main a{
+    position: absolute;
+    right: 0;
+}
+.main a[href="index.php"]{
+    position: absolute;
+    left: 0;
+}
+.main-alert{
+    display:flex;
+    justify-content:center; 
+    align-items:center; 
+    flex-flow:column;
+
+}
